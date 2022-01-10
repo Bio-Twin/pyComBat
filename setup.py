@@ -7,8 +7,8 @@ setuptools.setup(
     install_requires=[
         "numpy==1.18.5",
         "mpmath==1.1.0",
-        "pandas==1.1.5",
-        "patsy==0.5.1"
+        "pandas==1.3.5",
+        "patsy==0.5.1",
     ],
     name="combat",
     version="0.3.0",
@@ -24,5 +24,5 @@ setuptools.setup(
         "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires=">=3.6",
 )

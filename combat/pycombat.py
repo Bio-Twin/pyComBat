@@ -389,6 +389,8 @@ def treat_batches(batch):
     batches = []  # list of lists, contains the list of position for each batch
     for i in range(n_batch):
         batches.append(np.where(batch == np.unique(batch)[i])[0])
+
+    print(batches)
     batches = np.asarray(batches, dtype=np.int32)
     n_batches = list(map(len, batches))
     if 1 in n_batches:
